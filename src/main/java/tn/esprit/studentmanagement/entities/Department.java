@@ -19,7 +19,6 @@ public class Department {
     private String location;
     private String phone;
     private String head; // chef de département
-#testdesonarqubeihavetoaddacomment
     @OneToMany(mappedBy = "department")
     private List<Student> students;
 }
